@@ -19,3 +19,21 @@ It has 2 common and most imp functions and there are some others too.
 
 
 *Imputer* : Used for filling the missing values at the by some strategy like **Mean / Median**
+
+## Feature Scaling
+
+Primarly 2 ways to scale the parameter and due to rearch many new gets intoduce
+
+1. **Min-Max Scaling** : This is also termed as Normalization.
+    > (Value - Min) / (Max - Min)
+
+    For this SKlearn provides a class called ***MinMaxScaler*** for this<br>
+    *This is greatly affected by the outliers* .
+
+1. **Stranardization** : 
+    > (Value - mean) / std <br>
+        std -> standerd Deviation
+
+    For this SKlearn provides a class called ***Standard Scaler*** for this
+
+
