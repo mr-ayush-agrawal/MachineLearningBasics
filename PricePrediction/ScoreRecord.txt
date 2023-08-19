@@ -1,0 +1,12 @@
+Basic Model Outputs :
+    Linear Regression Tree :
+        Mean : 5.047908134450467
+        STD : 0.6337967501209223
+
+    Decision Tree :
+        Mean : 4.159710746658689
+        STD : 0.9534042557404091
+
+    Random Forest:
+        Mean : 3.0449628792511536
+        STD : 0.7128798886410412
