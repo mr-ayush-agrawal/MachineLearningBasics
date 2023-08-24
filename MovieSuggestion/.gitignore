@@ -1,0 +1,11 @@
+# All .pkl files 
+*.pkl
+
+# Temoorary file
+temp_record.txt
+
+# API Key File
+API_Key.txt
+
+# Ignoring Virtual Envoirnment 
+venv
