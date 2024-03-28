@@ -8,3 +8,8 @@ The Task is to forecast the sales using store, promotion and competitor's Data.
 
 ### Sourcing Data
 We can directly download the dataset form kaggle by using `opendataset` library, and by passing our kaggle username and API Token.
+
+## Solutions
+These are the solution I am applying for solving the same
+1. Using [Random Forest](./RandFor_Sol.ipynb)
+1. Using [Boosting Techniues](./)
