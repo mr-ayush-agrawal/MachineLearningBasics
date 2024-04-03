@@ -12,4 +12,4 @@ We can directly download the dataset form kaggle by using `opendataset` library,
 ## Solutions
 These are the solution I am applying for solving the same
 1. Using [Random Forest](./RandFor_Sol.ipynb)
-1. Using [Boosting Techniues](./)
+1. Using [Boosting Techniues](./Boosting_sol.ipynb)
