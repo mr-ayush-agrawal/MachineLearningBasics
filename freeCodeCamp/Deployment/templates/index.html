@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+        body {
+            text-align : center;
+        }
+        button {
+            background-color : blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Spam Classifier</h1>
+    <form method='post' action='/predict'>
+        <textarea name='email-content' placeholder="Enter your mail text" rows=40 cols=150> {{ text }}</textarea>
+        <div>
+            <button>Check Spam</button>
+            <a href='/'>Reset</a>
+        </div>
+    </form>
+
+    {% if predection ==1  %}
+        <h2>Spam</h2>
+    {% elif predection == -1 %}
+        <h2>Not Spam</h2>
+    {% endif %}
+</body>
+</html>
